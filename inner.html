@@ -17,7 +17,27 @@
 		</header>
 		<main>
 			<section class="hotel_options">
-				<!-- form -->
+				<form action="#" method="post">
+			        <fieldset>
+				        <p>Инфраструктура:<p>
+				        <input type="checkbox" name="pool">Бассейн<br>
+				        <input type="checkbox" name="parking">Парковка<br>
+				        <input type="checkbox" name="wifi">Вифи<br>
+				        <p>Тип жилья:</p>
+				        <input type="checkbox" name="hotel">Гостиница<br>
+				        <input type="checkbox" name="motel">Мотель<br>
+				        <input type="checkbox" name="apartaments">Апартаменты<br>
+			        </fieldset>
+		        </form>
+		        <p>Стоимость в сутки(Р):</p>
+		        <table>
+		        	<tr>
+				        <td>От 0</td>
+				        <td>до 3000</td>
+			        </tr>
+		        </table>
+		        <input type="range" min="0" max="3000"><br>
+		        <button>Показать</button>
 			</section>
 			<section>
 				<span>Найдено: </span>
