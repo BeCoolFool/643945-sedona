@@ -86,16 +86,28 @@
 				<p class="search_options">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 				<p class="hotel_button"><button>Поиск гостиницы в Седоне</button></p>
 				<div class="visualy_hidden">
-					<form>
-						Дата заезда: <input type="date" name="arrival" id="arr"><label for="arr"></label><br>
-						Дата выезда: <input type="date" name="departure" id="dep"><label for="dep"></label><br>
-						Взрослые: <span class="minus"> - </span>
-						<input type="text" name="counter" value="2" id="p_counter"><label for="p_counter"></label>
-						<span class="plus"> + </span><br>
-						Дети: <span class="minus"> - </span>
-						<input type="text" name="counter" value="0" id="c_counter"><label for="c_counter"></label>
-						<span class="plus"> + </span><br>
-						<button>Найти</button>
+					<form action="#" method="post">
+						<p>
+							<label for="arr">Дата заезда: </label>
+							<input type="date" name="arrival" id="arr">
+						</p>
+						<p>
+							<label for="dep">Дата выезда: </label>
+							<input type="date" name="departure" id="dep">
+						</p>
+						<p>
+							<label for="p_counter">Взрослые: </label>
+							<button class="button_minus" type="button">-</button>
+							<input type="text" name="counter" value="2" id="p_counter">
+							<button class="button_plus" type="button">+</button>
+						</p>
+						<p>
+							<label for="c_counter">Дети: </label>
+							<button class="button_minus" type="button">-</button>
+							<input type="text" name="counter" value="0" id="c_counter">
+							<button class="button_plus" type="button">+</button>
+						</p>
+						<button class="search">Найти</button>
 					</form>
 				</div>
 			</section>
