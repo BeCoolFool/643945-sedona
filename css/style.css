@@ -97,6 +97,7 @@ a {
 
 .hotel_button {
 	font: inherit;
+	text-transform: uppercase;
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: bold;
@@ -119,10 +120,13 @@ a {
 
 .reservation_buttons {
 	font: inherit;
+	text-transform: uppercase;
 	line-height: 26px;
 	font-weight: bold;
 	color: #000000;
 }
+
+.search {}
 
 .res_button {
 	font: inherit;
@@ -144,7 +148,7 @@ a {
 }
 
 .button_minus,
-.number,
+.number_button,
 .button_plus {
 	font: inherit;
 	line-height: 26px;
@@ -158,6 +162,7 @@ a {
 .button_minus,
 .button_plus {
 	color: #a9a9a9;
+	text-transform: uppercase;
 }
 
 .button_minus:hover,
@@ -170,23 +175,22 @@ a {
 	color: #81b3d2;
 }
 
-.search {
+.search_button {
 	font: inherit;
+	text-transform: uppercase;
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: bold;
 	border-width: 0px;
 	color: #ffffff;
 	background-color: #81b3d2;
-	width: 458px;
-	height: 58px;
 }
 
-.search:hover {
+.search_button:hover {
 	background-color: #669ec0; 
 }
 
-.search:active {
+.search_button:active {
 	color: #94b9d2;
 	background-color: #5496bd;
 }
@@ -198,6 +202,8 @@ a {
 .footer_text a,
 .social_network a {
 	color: #000000;
+	font: inherit;
+	text-transform: uppercase;
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: bold;
@@ -248,8 +254,6 @@ a {
 	color: #ffffff;
 	border: 2px solid #ffffff;
 	background-color: transparent;
-	width: 138px;
-	height: 38px;
 }
 
 .button_show:hover {
@@ -286,6 +290,7 @@ a {
 .hotel_info a {
 	color: #000000;
 	font-weight: bold;
+	text-transform: uppercase;
 	font-size: 21px;
 	line-height: 26px;
 }
@@ -300,12 +305,11 @@ a {
 
 .button_more {
 	font: inherit;
+	text-transform: uppercase;
 	color: #ffffff;
 	background-color: #81b3d2;
 	border-width: 0px;
 	font-weight: bold;
-	width: 110px;
-	height: 28px;
 }
 
 .button_more:hover {
@@ -319,9 +323,8 @@ a {
 
 .reservation a {
 	font: inherit;
+	text-transform: uppercase;
 	font-weight: bold;
-	width: 143px;
-	height: 48px;
 	color: #ffffff;
 	background-color: #766357;
 }
@@ -339,6 +342,4 @@ a {
 .raiting {
 	color: #666666;
 	background-color: #f2f2f2;
-	width: 112px;
-	height: 27px;
 }
