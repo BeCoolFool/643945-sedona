@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<header>
+		<header class="header_elements">
 			<nav class="main_menu">
 				<ul class="main_navigation">
 					<li><a href="index.html">Информация</a></li>
@@ -19,7 +19,7 @@
 		</header>
 		<main>
 			<section class="hotel_options">
-				<form action="#" method="get">
+				<form action="#" method="get" class="sedona_options_wrapper">
 					<fieldset class="sedona_options">
 						<legend class="fieldset_header">Инфраструктура:</legend>
 						<input type="checkbox" name="infrastructure" id="pool"><label for="pool" class="sorting_conditions">Бассейн</label><br>
@@ -32,20 +32,22 @@
 						<input type="checkbox" name="home_type" id="motel"><label for="motel" class="sorting_conditions">Мотель</label><br>
 						<input type="checkbox" name="home_type" id="apartments"><label for="apartments" class="sorting_conditions">Апартаменты</label><br>
 					</fieldset>
-					<p class="cost">Стоимость в сутки(Р):</p>
-					<table class="budget_table">
-						<tr>
-							<th class="budget">От 0 | </th>
-							<th class="budget">до 3000</th>
-						</tr>
-					</table>
-					<!-- Выбор цены -->
-					<button type="submit" class="button_show">Показать</button>
+					<div class="budget_wrapper">
+						<p class="cost">Стоимость в сутки(Р):</p>
+						<table class="budget_table">
+							<tr>
+								<th class="budget">От 0 | </th>
+								<th class="budget">до 3000</th>
+							</tr>
+						</table>
+						<!-- Выбор цены -->
+						<button type="submit" class="button_show">Показать</button>
+					</div>
 				</form>
 			</section>
-			<section class="hotels">
+			<section class="hotels hotels_wrapper">
 				<span class="search_result">Найдено: </span>
-				<span class="search_result">Сортировка: </span>
+				<span class="sorting">Сортировка: </span>
 				<ul class="sorting_options">
 					<li><a href="#">По цене</a></li>
 					<li><a href="#">По типу</a></li>
@@ -55,26 +57,32 @@
 			<section class="hotels">
 				<div class="hotel_info">
 					<img src="img/inner_hotel1.jpg" width="135" height="90" alt="Гостиница Amara resort and spa">
-					<h3><a href="#" class="to_hotel_page">Amara resort &amp; spa</a></h3>
-					<p>Гостиница от 4000</p>
-					<button class="button_more" type="button">Подробнее</button>
-					<p class="reservation"><a href="#">Забронировать</a></p>
+					<div class="hotel_info_wrapper">
+					    <h3><a href="#" class="to_hotel_page">Amara resort &amp; spa</a></h3>
+					    <p>Гостиница от 4000</p>
+					    <button class="button_more" type="button">Подробнее</button>
+					    <p class="reservation"><a href="#">Забронировать</a></p>
+					</div>
 					<p class="raiting">Рейтинг: 8,5</p>
 				</div>
 				<div class="hotel_info">
 					<img src="img/inner_hotel2.jpg" width="135" height="90" alt="Мотель Desert Quail">
-					<h3><a href="#" class="to_hotel_page">Desert Quail ill</a></h3>
-					<p>Мотель от 3000</p>
-					<button class="button_more" type="button">Подробнее</button>
-					<p class="reservation"><a href="#">Забронировать</a></p>
+					<div class="hotel_info_wrapper">
+					    <h3><a href="#" class="to_hotel_page">Desert Quail ill</a></h3>
+					    <p>Мотель от 3000</p>
+					    <button class="button_more" type="button">Подробнее</button>
+					    <p class="reservation"><a href="#">Забронировать</a></p>
+					</div>
 					<p class="raiting">Рейтинг: 8,9</p>
 				</div>
 				<div class="hotel_info">
 					<img src="img/inner_hotel3.jpg" width="135" height="90" alt="Аппартаменты Villas at Poco Diablo">
-					<h3><a href="#" class="to_hotel_page">Villas at Poco Diablo</a></h3>
-					<p>Аппартаменты от 2000</p>
-					<button class="button_more" type="button">Подробнее</button>
-					<p class="reservation"><a href="#">Забронировать</a></p>
+					<div class="hotel_info_wrapper">
+					    <h3><a href="#" class="to_hotel_page">Villas at Poco Diablo</a></h3>
+					    <p>Аппартаменты от 2000</p>
+					    <button class="button_more" type="button">Подробнее</button>
+					    <p class="reservation"><a href="#">Забронировать</a></p>
+					</div>
 					<p class="raiting">Рейтинг: 9,2</p>
 				</div>
 			</section>
