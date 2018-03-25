@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<header>
+		<header class="header_elements">
 			<nav class="main_menu">
 				<ul class="main_navigation">
 					<li><a href="#">Информация</a></li>
@@ -16,18 +16,22 @@
 					<li><a href="inner.html">Гостиницы</a></li>
 				</ul>
 			</nav>
+			<div class="main_logo">
+				<img src="img/index_background.jpg" width="1200" height="773" alt="sedona_main_logo">
+			</div>
 		</header>
-		<img src="img/index_background.jpg" width="1200" height="773" alt="sedona_main_logo">
 		<main>
 			<div class="sedona_definition">
 				<h2 class="definition">Седона - небольшой городок в Аризоне,<br> заслуживающий большего!</h2>
 				<p class="reasons">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
 			</div>
 			<section class="sedona_about">
-				<h2 class="img_header">Настоящий городок</h2>
-				<span class="img_text">- №1 -</span>
-				<p class="img_text">Седона - не аттракцион для туристов, там течёт своя жизнь!</p>
-				<img src="img/index_main_1.jpg" width="800" height="256" alt="Фото города Седона">
+				<div class="about_content_wrapper">
+					<h2 class="img_header">Настоящий городок</h2>
+					<span class="img_text">- №1 -</span>
+					<p class="img_text">Седона - не аттракцион для туристов, там течёт своя жизнь!</p>
+				</div>
+				<img src="img/index_main_1.jpg" width="800" height="260" alt="Фото города Седона">
 			</section>
 			<section>
 				<ul class="benefits_list">
@@ -53,12 +57,14 @@
 			</section>
 			<section class="sedona_about">
 				<img src="img/index_main_2.jpg" width="800" height="256" alt="Вид на каньон Седоны">
-				<h2 class="img_header">Там есть мост Дьявола</h2>
-				<span>- №2 -</span>
-				<p>Да, по нему можно пройтись! Если конечно вы осмелитесь</p>
+				<div class="about_content_wrapper">
+				    <h2 class="img_header">Там есть мост Дьявола</h2>
+				    <span class="img_text">- №2 -</span>
+				    <p class="img_text">Да, по нему можно пройтись! Если конечно вы осмелитесь</p>
+			    </div>
 			</section>
-			<section class="benefints">
-				<ul class="benefits_list">
+			<section>
+				<ul class="benefits_list spec_back">
 					<li>
 						<div class="about_element">
 							<h2 class="small_header">Небольшая площадь</h2>
@@ -87,7 +93,7 @@
 				<p class="interest_about">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 				<button class="hotel_button" type="button">Поиск гостиницы в Седоне</button>
 				<div class="visualy_hidden">
-					<form action="#" method="post" class="reservation_buttons">
+					<form action="#" method="post" class="reservation_buttons date_popup">
 						<p>
 							<label for="arr">Дата заезда: </label>
 							<input type="date" name="arrival" id="arr" class="res_button">

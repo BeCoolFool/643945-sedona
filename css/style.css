@@ -69,6 +69,10 @@ a {
 	background-color: #ffffff;
 }
 
+.spec_back {
+	background-color: #eeeeee;
+}
+
 .about_element {
 	text-align: center;
 }
@@ -103,10 +107,9 @@ a {
 	font-weight: bold;
 	color: #ffffff;
 	background-color: #766357;
-	padding-top: 35px;
-	padding-bottom: 35px;
-	padding-left: 140px;
-	padding-right: 140px;
+	box-sizing: border-box;
+	width: 574px;
+	height: 86px;
 }
 
 .hotel_button:hover {
@@ -184,6 +187,9 @@ a {
 	border-width: 0px;
 	color: #ffffff;
 	background-color: #81b3d2;
+	box-sizing: border-box;
+	width: 453px;
+	height: 59px;
 }
 
 .search_button:hover {
@@ -353,4 +359,75 @@ a {
 .raiting {
 	color: #666666;
 	background-color: #f2f2f2;
+}
+
+
+/* сеточные элементы */
+
+.header_elements {
+	box-sizing: border-box;
+	width: 1200px;
+
+
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.main_navigation {
+	box-sizing: border-box;
+	width: 1200px;
+
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.sedona_about {
+	box-sizing: border-box;
+	width: 1200px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.about_content_wrapper {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.benefits_list {
+    box-sizing: content-box;
+    width: 1200px;
+
+
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.reservation {
+	box-sizing: content-box;
+	width: 1200px;
+}
+
+.popup_margin {
+	margin-right: 314px;
+	margin-left: 314px;
+}
+
+.date_popup {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+}
+
+.socials {
+	box-sizing: border-box;
+	width: 1200px;
+
+	display: flex;
+	justify-content: space-around;
 }
