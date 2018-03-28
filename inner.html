@@ -10,10 +10,10 @@
 		<header class="header_elements">
 			<nav class="main_menu">
 				<ul class="main_navigation">
-					<li><a href="index.html">Информация</a></li>
-					<li><a href="#">Фото и Видео</a></li>
-					<li><a href="#">Карта штата</a></li>
-					<li><a href="#">Гостиницы</a></li>
+					<li class="menu_element"><a href="index.html">Информация</a></li>
+					<li class="menu_element"><a href="#">Фото и Видео</a></li>
+					<li class="menu_element"><a href="#">Карта штата</a></li>
+					<li class="menu_element"><a href="#">Гостиницы</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -45,56 +45,85 @@
 					</div>
 				</form>
 			</section>
-			<section class="hotels hotels_wrapper">
-				<span class="search_result">Найдено: </span>
-				<span class="sorting">Сортировка: </span>
-				<ul class="sorting_options">
-					<li><a href="#">По цене</a></li>
-					<li><a href="#">По типу</a></li>
-					<li><a href="#">По рейтингу</a></li>
-				</ul>
-			</section>
 			<section class="hotels">
-				<div class="hotel_info">
-					<img src="img/inner_hotel1.jpg" width="135" height="90" alt="Гостиница Amara resort and spa">
-					<div class="hotel_info_wrapper">
-						<h3><a href="#" class="to_hotel_page">Amara resort &amp; spa</a></h3>
-						<p>Гостиница от 4000</p>
-						<button class="button_more" type="button">Подробнее</button>
-						<button class="reservation_button" type="button">Забронировать</button>
+				<div class="hotels_wrapper">
+				    <span class="search_result">Найдено: </span>
+				    <span class="sorting">Сортировка: </span>
+				    <ul class="sorting_options">
+					    <li><a href="#">По цене</a></li>
+					    <li><a href="#">По типу</a></li>
+					    <li><a href="#">По рейтингу</a></li>
+				    </ul>
+			    </div>
+			</section>
+			<section class="hotels hotels_display">
+				<div class="total_hotel_wrapper">
+				    <img src="img/inner_hotel1.jpg" width="135" height="90" alt="Гостиница Amara resort and spa">
+				    <div class="hotel_info">
+					    <h3><a href="#" class="to_hotel_page">Amara resort &amp; spa</a></h3>
+					    <div class="hotel_info_wrapper">
+						    <div class="hotel_display_wrapper">
+						        <p>Гостиница</p>
+						        <button class="button_more" type="button">Подробнее</button>
+						    </div>
+						    <div class="hotel_display_wrapper">
+							    <p>от 4000</p>
+						        <button class="reservation_button" type="button">Забронировать</button>
+						    </div>
+					    </div>
 					</div>
+				</div>
+				<div class="raiting_wrapper">
 					<p class="raiting">Рейтинг: 8,5</p>
 				</div>
-				<div class="hotel_info">
+				<div class="total_hotel_wrapper">
 					<img src="img/inner_hotel2.jpg" width="135" height="90" alt="Мотель Desert Quail">
-					<div class="hotel_info_wrapper">
-						<h3><a href="#" class="to_hotel_page">Desert Quail ill</a></h3>
-						<p>Мотель от 3000</p>
-						<button class="button_more" type="button">Подробнее</button>
-						<button class="reservation_button" type="button">Забронировать</button>
+				    <div class="hotel_info">
+				    	<h3><a href="#" class="to_hotel_page">Desert Quail ill</a></h3>
+					    <div class="hotel_info_wrapper">
+					    	<div class="hotel_display_wrapper">
+						        <p>Мотель</p>
+						        <button class="button_more" type="button">Подробнее</button>
+						    </div>
+						    <div class="hotel_display_wrapper">
+						    	<p>от 3000</p>
+						        <button class="reservation_button" type="button">Забронировать</button>
+						    </div>
+						</div>
 					</div>
-					<p class="raiting">Рейтинг: 8,9</p>
 				</div>
-				<div class="hotel_info">
+				<div class="raiting_wrapper">
+				    <p class="raiting">Рейтинг: 8,9</p>
+				</div>
+				<div class="total_hotel_wrapper">
 					<img src="img/inner_hotel3.jpg" width="135" height="90" alt="Аппартаменты Villas at Poco Diablo">
-					<div class="hotel_info_wrapper">
+					<div class="hotel_info">
 						<h3><a href="#" class="to_hotel_page">Villas at Poco Diablo</a></h3>
-						<p>Аппартаменты от 2000</p>
-						<button class="button_more" type="button">Подробнее</button>
-						<button class="reservation_button" type="button">Забронировать</button>
+						<div class="hotel_info_wrapper">
+							<div class="hotel_display_wrapper">
+						        <p>Аппартаменты</p>
+						        <button class="button_more" type="button">Подробнее</button>
+						    </div>
+						    <div class="hotel_display_wrapper">
+						    	<p>от 2000</p>
+						        <button class="reservation_button" type="button">Забронировать</button>
+						    </div>
+						</div>
 					</div>
+				</div>
+				<div class="raiting_wrapper">
 					<p class="raiting">Рейтинг: 9,2</p>
 				</div>
 			</section>
 		</main>
 		<footer class="socials">
-			<p class="footer_hashtag"><a href="#">#VISITSEDONA</a></p>
-			<ul class="social_network">
+			<p class="footer_hashtag footer_element"><a href="#">#VISITSEDONA</a></p>
+			<ul class="social_network footer_element">
 				<li><a href="#">Twitter</a></li>
 				<li><a href="#">Facebook</a></li>
 				<li><a href="#">YouTube</a></li>
 			</ul>
-			<p class="footer_text"><a href="#">WEBSITE BY</a></p>
+			<p class="footer_text footer_element"><a href="#">WEBSITE BY</a></p>
 		</footer>
 
 	</body>

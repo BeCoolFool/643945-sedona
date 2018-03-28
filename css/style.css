@@ -224,6 +224,11 @@ a {
 
 .social_network {
 	list-style: none;
+	padding: 0px;
+}
+
+.footer_element {
+	width: 33%;
 }
 
 .footer_text a {
@@ -383,6 +388,13 @@ a {
 
 /* Сеточные элементы главной страницы */
 
+.menu_element {
+	width: 20%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+
 .header_elements {
 	box-sizing: border-box;
 	width: 1200px;
@@ -392,9 +404,12 @@ a {
 	flex-flow: row wrap;
 }
 
+
 .main_navigation {
 	box-sizing: border-box;
 	width: 1200px;
+	padding-left: 6%;
+	padding-right: 6%;
 
 
 	display: flex;
@@ -404,6 +419,7 @@ a {
 .sedona_about {
 	box-sizing: border-box;
 	width: 1200px;
+	height: 258px;
 
 	display: flex;
 	justify-content: space-between;
@@ -417,14 +433,32 @@ a {
 
 }
 
-.benefits_list {
-    box-sizing: content-box;
-    width: 1200px;
+.benefits_size {
+	box-sizing: border-box;
+	width: 1200px;
+	height: 258px;
+	background-color: #ffffff;
+}
 
+.benefits2_size {
+	box-sizing: border-box;
+	width: 1200px;
+	height: 258px;
+}
+
+
+.about_element {
+	width: 33%;
+}
+
+
+.benefits_list {
+	margin: 0px;
+	padding-left: 0px;
 
 	display: flex;
-	justify-content: space-around;
-
+	justify-content: flex-start;
+	align-items: baseline;
 }
 
 .reservation {
@@ -446,9 +480,10 @@ a {
 .socials {
 	box-sizing: border-box;
 	width: 1200px;
+	height: 121px;
 
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 
@@ -472,31 +507,58 @@ a {
 }
 
 .hotels_wrapper {
-	padding-left: 73px;
-
-
+	width: 528px;
+	height: 87px;
+	padding-left: 6%;
 	display: flex;
 	justify-content: space-between;
-	align-items: baseline;
+	align-items: center;
 }
 
 .sorting_options {
+	padding-left: 0px;
 	width: 236px;
 	display: flex;
 	justify-content: space-between;
 }
 
+
 .hotel_info {
-	padding-left: 73px;
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
+	flex-direction: column;
 }
 
-.hotel_info_wrappe{
+.hotel_info_wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.hotels_display {
+	width: 1200px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.hotel_display_wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.total_hotel_wrapper {
+	padding-left: 6%;
+	width: 528px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.raiting_wrapper {
+	width: 528px;
+	padding-right: 6%;
 	display: flex;
 	justify-content: flex-end;
-	flex-direction: column;
 }
 
 .raiting {
@@ -504,3 +566,10 @@ a {
 	width: 111px;
 	height: 27px;
 }
+
+.footer_element {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
