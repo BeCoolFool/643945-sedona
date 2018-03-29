@@ -24,6 +24,7 @@ a {
 	color: #000000;
 	font-weight: bold;
 	background-color: #ffffff;
+	width: 1200px;
 }
 
 .main_menu,
@@ -375,12 +376,16 @@ a {
 /* inner.html */
 
 .hotel_options {
+	width: 1200px;
 	background-image: url(../img/filter_background.png);
 	background-repeat: no-repeat;
+	display: flex;
 }
 
 .sedona_options {
 	border: 0px;
+	width: 300px;
+	margin-right: 0;
 }
 
 .fieldset_header {
@@ -397,15 +402,36 @@ a {
 	color: #ffffff;
 	font-size: 16px;
 	font-weight: bold;
+	margin-left: 210px;
+	margin-top: 31px;
+	margin-bottom: 15px;
 }
 
 .budget_table {
+	margin-left: 210px;
 	border: 2px solid #ffffff;
+	margin-bottom: 52px;
 }
 
 .budget {
 	color: #ffffff;
 	font-weight: 400;
+}
+
+.table_left,
+.table_right {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.table_left {
+	padding-left: 63px;
+	padding-right: 62px;
+}
+
+.table_right {
+	padding-left: 51px;
+	padding-right: 50px;
 }
 
 .button_show {
@@ -414,10 +440,15 @@ a {
 	color: #ffffff;
 	border: 2px solid #ffffff;
 	background-color: transparent;
+	padding-top: 10px;
+	padding-left: 35px;
+	padding-right: 33px;
+	padding-bottom: 10px;
+	margin-bottom: 33px;
+	margin-left: 300px;
 }
 
 .button_show:hover {
-	border-width: 0px;
 	color: #000000;
 	background-color: #ffffff;
 }
@@ -527,18 +558,12 @@ a {
 
 .menu_element {
 	width: 20%;
-	display: flex;
-	justify-content: flex-start;
 }
 
 
 .header_elements {
 	box-sizing: border-box;
 	min-width: 1200px;
-
-
-	display: flex;
-	flex-flow: row wrap;
 }
 
 
@@ -547,6 +572,10 @@ a {
 	min-width: 1200px;
 	padding-left: 6%;
 	padding-right: 6%;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 21px;
+	padding-bottom: 23px;
 
 
 	display: flex;
@@ -620,13 +649,13 @@ a {
 
 .sedona_options_wrapper {
 	box-sizing: border-box;
-	width: 1200px;
-	height: 217px;
+	width: 600px;
+	margin-right: 0;
+    display: inline;
+}
 
-
-	display: flex;
-	justify-content: space-around;
-	align-items: baseline;
+.budget_wrapper {
+	width: 600px;
 }
 
 .hotels {
@@ -709,7 +738,7 @@ a {
 }
 
 .main_background_img {
-	min-width: 1200px;
+	width: 1200px;
 	background-image: url(../img/index_background.jpg);
 	background-repeat: no-repeat;	
 }
@@ -763,4 +792,8 @@ a {
 	display: flex;
 	justify-content: flex-end;
 
+}
+
+.right_element {
+	text-align: right;
 }

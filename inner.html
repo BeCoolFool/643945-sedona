@@ -8,17 +8,17 @@
 	</head>
 	<body>
 		<header class="header_elements">
-			<nav class="main_menu">
+			<nav class="main_menu container">
 				<ul class="main_navigation">
 					<li class="menu_element"><a href="index.html">Информация</a></li>
 					<li class="menu_element"><a href="#">Фото и Видео</a></li>
-					<li class="menu_element"><a href="#">Карта штата</a></li>
-					<li class="menu_element"><a href="#">Гостиницы</a></li>
+					<li class="menu_element right_element"><a href="#">Карта штата</a></li>
+					<li class="menu_element right_element"><a href="#">Гостиницы</a></li>
 				</ul>
 			</nav>
 		</header>
 		<main>
-			<section class="hotel_options">
+			<section class="hotel_options container">
 				<form action="#" method="get" class="sedona_options_wrapper">
 					<fieldset class="sedona_options">
 						<legend class="fieldset_header">Инфраструктура:</legend>
@@ -32,20 +32,20 @@
 						<input type="checkbox" name="home_type" id="motel"><label for="motel" class="sorting_conditions">Мотель</label><br>
 						<input type="checkbox" name="home_type" id="apartments"><label for="apartments" class="sorting_conditions">Апартаменты</label><br>
 					</fieldset>
-					<div class="budget_wrapper">
-						<p class="cost">Стоимость в сутки(Р):</p>
-						<table class="budget_table">
-							<tr>
-								<th class="budget">От 0 | </th>
-								<th class="budget">до 3000</th>
-							</tr>
-						</table>
-						<!-- Выбор цены -->
-						<button type="submit" class="button_show">Показать</button>
-					</div>
 				</form>
+				<div class="budget_wrapper">
+					<p class="cost">Стоимость в сутки(Р):</p>
+					<table class="budget_table">
+						<tr>
+							<th class="budget table_left">От 0</th>
+							<th class="budget table_right">до 3000</th>
+						</tr>
+					</table>
+					<!-- Выбор цены -->
+					<button type="submit" class="button_show">Показать</button>
+				</div>
 			</section>
-			<section class="hotels">
+			<section class="hotels container">
 				<div class="hotels_wrapper">
 				    <span class="search_result">Найдено: </span>
 				    <span class="sorting">Сортировка: </span>
@@ -56,7 +56,7 @@
 				    </ul>
 			    </div>
 			</section>
-			<section class="hotels hotels_display">
+			<section class="hotels hotels_display container">
 				<div class="total_hotel_wrapper">
 				    <img src="img/inner_hotel1.jpg" width="135" height="90" alt="Гостиница Amara resort and spa">
 				    <div class="hotel_info">
@@ -116,7 +116,7 @@
 				</div>
 			</section>
 		</main>
-		<footer class="socials">
+		<footer class="socials container">
 			<p class="footer_hashtag footer_element"><a href="#">#VISITSEDONA</a></p>
 			<ul class="social_network footer_element">
 				<li><a href="#">Twitter</a></li>
