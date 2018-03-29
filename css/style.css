@@ -1,5 +1,5 @@
 body {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 
 
@@ -43,9 +43,14 @@ a {
 	color: #d2d2d2;
 }
 
+.right_element {
+	text-align: right;
+}
+
 .sedona_definition {
 	text-align: center;
 	background-color: #ffffff;
+	width: 1200px;
 }
 
 .definition {
@@ -53,10 +58,16 @@ a {
 	line-height: 26px;
 	font-weight: bold;
 	color: #000000;
+	padding-top: 65px;
+	padding-left: 379px;
+	padding-right: 379px;
+	margin-top: 0;
+	margin-bottom: 41px;
 }
 
 .reasons {
 	line-height: 26px;
+	padding-bottom: 55px;
 }
 
 .sedona_about {
@@ -102,6 +113,7 @@ a {
 	margin-bottom: 0;
 	padding-left: 73px;
 	padding-right: 74px;
+	padding-bottom: 60px;
 }
 
 .food_icon_header {
@@ -118,6 +130,7 @@ a {
 	padding-right: 50px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	padding-bottom: 60px;
 }
 
 .souvenir_icon_header {
@@ -134,6 +147,7 @@ a {
 	padding-left: 64px;
 	padding-right: 61px;
 	text-align: center;
+	padding-bottom: 60px;
 }
 
 .small_square_number,
@@ -203,10 +217,21 @@ a {
 	line-height: 36px;
 	font-weight: bold;
 	color: #000000;
+	margin-top: 0;
+	margin-bottom: 35px;
+	padding-top: 57px;
+	padding-left: 451px;
+	padding-right: 449px;
 }
 
 .interest_about {
 	line-height: 24px;
+	text-align: center;
+	margin-top: 0;
+	padding-left: 381px;
+	padding-right: 381px;
+	margin-bottom: 51px;
+
 }
 
 .hotel_button {
@@ -277,6 +302,8 @@ a {
 .button_plus {
 	color: #a9a9a9;
 	text-transform: uppercase;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .button_minus:hover,
@@ -669,6 +696,7 @@ a {
 }
 
 .footer_element {
+	margin: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -725,4 +753,14 @@ a {
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 26px;
+}
+
+.map {
+	width: 1200px;
+}
+
+.counters_wrapper {
+	display: flex;
+	justify-content: flex-end;
+
 }

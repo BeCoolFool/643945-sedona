@@ -12,17 +12,17 @@
 				<ul class="main_navigation">
 					<li class="menu_element"><a href="#">Информация</a></li>
 					<li class="menu_element"><a href="#">Фото и видео</a></li>
-					<li class="menu_element"><a href="#">Карта штата</a></li>
-					<li class="menu_element"><a href="inner.html">Гостиницы</a></li>
+					<li class="menu_element right_element"><a href="#">Карта штата</a></li>
+					<li class="menu_element right_element"><a href="inner.html">Гостиницы</a></li>
 				</ul>
 			</nav>
 			<div class="main_background_img container">
-				<p>ЗДесь будт бэкграунд</p>
+				<p>Здесь будет бэкграунд</p>
 			</div>
 		</header>
 		<main>
 			<div class="sedona_definition container">
-				<h2 class="definition">Седона - небольшой городок в Аризоне,<br> заслуживающий большего!</h2>
+				<h2 class="definition">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
 				<p class="reasons">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
 			</div>
 			<section class="sedona_about  container">
@@ -80,17 +80,17 @@
 				<h2 class="interest">Заинтересовались?</h2>
 				<p class="interest_about">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 				<button class="hotel_button" type="button">Поиск гостиницы в Седоне</button>
-				<div class="visualy_hidden popup_margin">
-					<form action="#" method="post" class="reservation_buttons date_popup">
-						<p>
-							<label for="arr">Дата заезда: </label>
-							<input type="date" name="arrival" id="arr" class="res_button">
-						</p>
-						<p>
-							<label for="dep">Дата выезда: </label>
-							<input type="date" name="departure" id="dep" class="res_button">
-						</p>
-						<p>
+				<form action="#" method="post" class="reservation_buttons date_popup visualy_hidden popup_margin">
+					<p>
+						<label for="arr">Дата заезда: </label>
+						<input type="date" name="arrival" id="arr" class="res_button">
+					</p>
+					<p>
+						<label for="dep">Дата выезда: </label>
+						<input type="date" name="departure" id="dep" class="res_button">
+					</p>
+					<div class="counters_wrapper">
+					    <p>
 							<label for="p_counter">Взрослые: </label>
 							<button class="button_minus" type="button">&minus;</button>
 							<input type="text" name="counter" value="2" id="p_counter" class="number_button">
@@ -102,9 +102,9 @@
 							<input type="text" name="counter" value="0" id="c_counter" class="number_button">
 							<button class="button_plus" type="button">&#43;</button>
 						</p>
-						<button class="search_button" type="submit">Найти</button>
-					</form>
-				</div>
+					</div>
+					<button class="search_button" type="submit">Найти</button>
+				</form>
 			</section>
 			<section class="map container">
 				<img src="img/index_map.png" width="1200" height="593" alt="Местоположение Седоны на карте">
