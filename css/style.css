@@ -77,10 +77,120 @@ a {
 	text-align: center;
 }
 
-.small_header {
+.house_icon_header,
+.food_icon_header,
+.souvenir_icon_header,
+.small_square_header,
+.good_road_header,
+.tourists_header {
 	font-size: 21px;
 	font-weight: bold;
 	color: #000000;
+}
+
+.house_icon_header {
+	padding-top: 165px;
+	padding-left: 165px;
+	padding-right: 165px;
+	margin-top: 0;
+	margin-bottom: 31px;
+}
+
+.house_icon_about {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 73px;
+	padding-right: 74px;
+}
+
+.food_icon_header {
+	padding-top: 165px;
+	padding-left: 181px;
+	padding-right: 178px;
+	margin-bottom: 31px;
+	margin-top: 0;
+}
+
+.food_icon_about {
+	text-align: center;
+	padding-left: 52px;
+	padding-right: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.souvenir_icon_header {
+	padding-top: 165px;
+	padding-left: 149px;
+	padding-right: 148px;
+	margin-top: 0px;
+	margin-bottom: 31px;
+}
+
+.souvenir_icon_about {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 64px;
+	padding-right: 61px;
+	text-align: center;
+}
+
+.small_square_number,
+.good_road_number,
+.tourists_number {
+	margin-top: 0;
+	padding-left: 171px;
+	padding-right: 171px;
+	margin-bottom: 30px;
+}
+
+.small_square_header,
+.good_road_header,
+.tourists_header {
+	margin-top: 0;
+	margin-bottom: 28px;
+	padding-top: 49px;
+	text-align: center;
+}
+
+.small_square_header {
+	padding-left: 140px;
+	padding-right: 140px;
+
+}
+
+.good_road_header {
+	padding-left: 148px;
+	padding-right: 148px;
+}
+
+.tourists_header {
+	padding-left: 149px;
+	padding-right: 149px;
+}
+
+.small_square_about,
+.good_road_about,
+.tourists_about {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+
+.small_square_about {
+	padding-left: 93px;
+	padding-right: 95px;
+}
+
+.good_road_about {
+	padding-left: 66px;
+	padding-right: 66px;
+}
+
+.tourists_about {
+	padding-left: 69px;
+	padding-right: 67px;
 }
 
 .reservation {
@@ -397,7 +507,7 @@ a {
 
 .header_elements {
 	box-sizing: border-box;
-	width: 1200px;
+	min-width: 1200px;
 
 
 	display: flex;
@@ -407,7 +517,7 @@ a {
 
 .main_navigation {
 	box-sizing: border-box;
-	width: 1200px;
+	min-width: 1200px;
 	padding-left: 6%;
 	padding-right: 6%;
 
@@ -419,24 +529,15 @@ a {
 .sedona_about {
 	box-sizing: border-box;
 	width: 1200px;
-	height: 258px;
 
 	display: flex;
 	justify-content: space-between;
 }
 
-.about_content_wrapper {
-	display: flex;
-	flex-flow: column wrap;
-	align-items: center;
-	justify-content: space-around;
-
-}
 
 .benefits_size {
 	box-sizing: border-box;
 	width: 1200px;
-	height: 258px;
 	background-color: #ffffff;
 }
 
@@ -573,3 +674,55 @@ a {
 	align-items: center;
 }
 
+/* test */
+
+.container {
+	margin: 0 auto;
+}
+
+.main_background_img {
+	min-width: 1200px;
+	background-image: url(../img/index_background.jpg);
+	background-repeat: no-repeat;	
+}
+
+.img_header {
+	padding-top: 44px;
+	padding-left: 140px;
+	padding-right: 138px;
+	text-align: center;
+	margin-bottom: 27px;
+	margin-top: 0px;
+}
+
+.about_content_number {
+	padding-left: 175px;
+	padding-right: 172px;
+	margin-bottom: 30px;
+}
+
+.img_text {
+	padding-bottom: 65px;
+	padding-left: 60px;
+	padding-right: 59px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.devil_bridge_text {
+	padding-left: 48px;
+	padding-right: 49px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.devil_bridge_header {
+	font-weight: bold;
+	font-size: 21px;
+	padding-top: 48px;
+	padding-left: 125px;
+	padding-right: 124px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 26px;
+}
