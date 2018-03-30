@@ -20,17 +20,17 @@
 		<main>
 			<section class="hotel_options container">
 				<form action="#" method="get" class="sedona_options_wrapper">
-					<fieldset class="sedona_options">
-						<legend class="fieldset_header">Инфраструктура:</legend>
-						<input type="checkbox" name="infrastructure" id="pool"><label for="pool" class="sorting_conditions">Бассейн</label><br>
-						<input type="checkbox" name="infrastructure" id="parking"><label for="parking" class="sorting_conditions">Парковка</label><br>
-						<input type="checkbox" name="infrastructure" id="wifi"><label for="wifi" class="sorting_conditions">Wi-fi</label><br>
+					<fieldset class="infrastructure_options">
+						<legend class="infrastructure_header">Инфраструктура:</legend>
+						<input type="checkbox" name="infrastructure" id="pool" class="infrastructure_checkbox"><label for="pool" class="sorting_conditions">Бассейн</label><br>
+						<input type="checkbox" name="infrastructure" id="parking" class="infrastructure_checkbox"><label for="parking" class="sorting_conditions">Парковка</label><br>
+						<input type="checkbox" name="infrastructure" id="wifi" class="infrastructure_checkbox"><label for="wifi" class="sorting_conditions">Wi-fi</label><br>
 					</fieldset>
-					<fieldset class="sedona_options">
-						<legend class="fieldset_header">Тип жилья:</legend>
-						<input type="checkbox" name="home_type" id="hotel"><label for="hotel" class="sorting_conditions">Гостиница</label><br>
-						<input type="checkbox" name="home_type" id="motel"><label for="motel" class="sorting_conditions">Мотель</label><br>
-						<input type="checkbox" name="home_type" id="apartments"><label for="apartments" class="sorting_conditions">Апартаменты</label><br>
+					<fieldset class="housetype_options">
+						<legend class="housetype_header">Тип жилья:</legend>
+						<input type="checkbox" name="home_type" id="hotel" class="housetype_checkbox"><label for="hotel" class="sorting_conditions">Гостиница</label><br>
+						<input type="checkbox" name="home_type" id="motel" class="housetype_checkbox"><label for="motel" class="sorting_conditions">Мотель</label><br>
+						<input type="checkbox" name="home_type" id="apartments" class="housetype_checkbox"><label for="apartments" class="sorting_conditions">Апартаменты</label><br>
 					</fieldset>
 				</form>
 				<div class="budget_wrapper">
@@ -47,72 +47,67 @@
 			</section>
 			<section class="hotels container">
 				<div class="hotels_wrapper">
-				    <span class="search_result">Найдено: </span>
-				    <span class="sorting">Сортировка: </span>
-				    <ul class="sorting_options">
-					    <li><a href="#">По цене</a></li>
-					    <li><a href="#">По типу</a></li>
-					    <li><a href="#">По рейтингу</a></li>
-				    </ul>
-			    </div>
+					<span class="search_result">Найдено: </span>
+					<span class="sorting">Сортировка: </span>
+					<ul class="sorting_options">
+						<li><a href="#">По цене</a></li>
+						<li><a href="#">По типу</a></li>
+						<li><a href="#">По рейтингу</a></li>
+					</ul>
+				</div>
 			</section>
 			<section class="hotels hotels_display container">
+
 				<div class="total_hotel_wrapper">
-				    <img src="img/inner_hotel1.jpg" width="135" height="90" alt="Гостиница Amara resort and spa">
-				    <div class="hotel_info">
-					    <h3><a href="#" class="to_hotel_page">Amara resort &amp; spa</a></h3>
-					    <div class="hotel_info_wrapper">
-						    <div class="hotel_display_wrapper">
-						        <p>Гостиница</p>
-						        <button class="button_more" type="button">Подробнее</button>
-						    </div>
-						    <div class="hotel_display_wrapper">
-							    <p>от 4000</p>
-						        <button class="reservation_button" type="button">Забронировать</button>
-						    </div>
-					    </div>
-					</div>
-				</div>
-				<div class="raiting_wrapper">
-					<p class="raiting">Рейтинг: 8,5</p>
-				</div>
-				<div class="total_hotel_wrapper">
-					<img src="img/inner_hotel2.jpg" width="135" height="90" alt="Мотель Desert Quail">
-				    <div class="hotel_info">
-				    	<h3><a href="#" class="to_hotel_page">Desert Quail ill</a></h3>
-					    <div class="hotel_info_wrapper">
-					    	<div class="hotel_display_wrapper">
-						        <p>Мотель</p>
-						        <button class="button_more" type="button">Подробнее</button>
-						    </div>
-						    <div class="hotel_display_wrapper">
-						    	<p>от 3000</p>
-						        <button class="reservation_button" type="button">Забронировать</button>
-						    </div>
-						</div>
-					</div>
-				</div>
-				<div class="raiting_wrapper">
-				    <p class="raiting">Рейтинг: 8,9</p>
-				</div>
-				<div class="total_hotel_wrapper">
-					<img src="img/inner_hotel3.jpg" width="135" height="90" alt="Аппартаменты Villas at Poco Diablo">
 					<div class="hotel_info">
-						<h3><a href="#" class="to_hotel_page">Villas at Poco Diablo</a></h3>
+						<img src="img/inner_hotel1.jpg" width="135" height="90" alt="Гостиница Amara resort and spa" class="display_img">
 						<div class="hotel_info_wrapper">
+							<h3 class="text_marg_null header_display"><a href="#" class="to_hotel_page">Amara resort &amp; spa</a></h3>
+							<p class="text_marg_null text_hotel_pos">Гостиница</p>
+							<p class="text_marg_null">от 4000</p>
 							<div class="hotel_display_wrapper">
-						        <p>Аппартаменты</p>
-						        <button class="button_more" type="button">Подробнее</button>
-						    </div>
-						    <div class="hotel_display_wrapper">
-						    	<p>от 2000</p>
-						        <button class="reservation_button" type="button">Забронировать</button>
-						    </div>
+								<button class="button_more" type="button">Подробнее</button>
+								<button class="reservation_button" type="button">Забронировать</button>
+							</div>
 						</div>
 					</div>
+					<div class="raiting_wrapper">
+						<p class="raiting">Рейтинг: 8,5</p>
+					</div>
 				</div>
-				<div class="raiting_wrapper">
-					<p class="raiting">Рейтинг: 9,2</p>
+				<div class="total_hotel_wrapper">
+					<div class="hotel_info">
+						<img src="img/inner_hotel2.jpg" width="135" height="90" alt="Мотель Desert Quail" class="display_img">
+						<div class="hotel_info_wrapper">
+							<h3 class="text_marg_null header_display"><a href="#" class="to_hotel_page">Desert Quail ill</a></h3>
+							<p class="text_marg_null text_motel_pos">Мотель</p>
+							<p class="text_marg_null">от 3000</p>
+							<div class="hotel_display_wrapper">
+								<button class="button_more" type="button">Подробнее</button>
+								<button class="reservation_button" type="button">Забронировать</button>
+							</div>
+						</div>
+					</div>
+					<div class="raiting_wrapper">
+						<p class="raiting">Рейтинг: 8,9</p>
+					</div>
+				</div>
+				<div class="total_hotel_wrapper">
+					<div class="hotel_info">
+						<img src="img/inner_hotel3.jpg" width="135" height="90" alt="Аппартаменты Villas at Poco Diablo" class="display_img">
+						<div class="hotel_info_wrapper">
+							<h3 class="text_marg_null header_display"><a href="#" class="to_hotel_page">Villas at Poco Diablo</a></h3>
+							<p class="text_marg_null text_appart_pos">Аппартаменты</p>
+							<p class="text_marg_null">от 2000</p>
+							<div class="hotel_display_wrapper">
+								<button class="button_more" type="button">Подробнее</button>
+								<button class="reservation_button" type="button">Забронировать</button>
+							</div>
+						</div>
+					</div>
+					<div class="raiting_wrapper">
+						<p class="raiting">Рейтинг: 9,2</p>
+					</div>
 				</div>
 			</section>
 		</main>

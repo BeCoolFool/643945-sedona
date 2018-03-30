@@ -382,16 +382,45 @@ a {
 	display: flex;
 }
 
-.sedona_options {
+.infrastructure_options,
+.housetype_options {
 	border: 0px;
 	width: 300px;
-	margin-right: 0;
+	padding: 0px;
+	margin: 0px;
 }
 
-.fieldset_header {
+.infrastructure_header,
+.housetype_header {
 	color: #ffffff;
 	font-size: 16px;
 	font-weight: bold;
+	padding-top: 31px;
+}
+
+.infrastructure_header{
+	padding-left: 73px;
+	padding-right: 101px;
+	margin-bottom: 33px;
+}
+
+.infrastructure_checkbox {
+	margin-left: 73px;
+	margin-bottom: 23px;
+	margin-right: 12px;
+	margin-top: 0;
+}
+
+.housetype_header {
+	margin-left: 13px;
+	margin-bottom: 33px;
+}
+
+.housetype_checkbox {
+	margin-left: 13px;
+	margin-top: 0;
+	margin-right: 15px;
+	margin-bottom: 23px;
 }
 
 .sorting_conditions {
@@ -650,8 +679,7 @@ a {
 .sedona_options_wrapper {
 	box-sizing: border-box;
 	width: 600px;
-	margin-right: 0;
-    display: inline;
+    display: flex;
 }
 
 .budget_wrapper {
@@ -681,14 +709,43 @@ a {
 
 
 .hotel_info {
-	display: flex;
-	flex-direction: column;
+	width: 600px;
 }
 
-.hotel_info_wrapper{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
+.display_img {
+	padding-left: 73px;
+	padding-top: 35px;
+	padding-bottom: 31px;
+	padding-right: 30px;
+	float: left;
+}
+
+.hotel_info_wrapper {
+	padding-top: 30px;
+}
+
+.header_display {
+	padding-bottom: 10px;
+}
+
+
+.text_marg_null {
+	margin: 0;
+}
+
+.text_hotel_pos {
+	margin-right: 37px;
+	float: left;
+}
+
+.text_motel_pos {
+	margin-right: 63px;
+	float: left;
+}
+
+.text_appart_pos {
+	margin-right: 19px;
+	float: left;
 }
 
 .hotels_display {
@@ -698,30 +755,29 @@ a {
 }
 
 .hotel_display_wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
+	margin-top: 10px;
+	display: inline-block;
 }
 
 .total_hotel_wrapper {
-	padding-left: 6%;
-	width: 528px;
+	width: 1200px;
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
 }
 
 .raiting_wrapper {
-	width: 528px;
-	padding-right: 6%;
-	display: flex;
-	justify-content: flex-end;
+	width: 600px;
 }
 
 .raiting {
+	box-sizing: border-box;
+	padding-left: 16px;
+	padding-right: 14px;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	margin-left: 412px;
 	margin-right: 73px;
-	width: 111px;
-	height: 27px;
+	margin-top: 94px;
+	margin-bottom: 32px;
 }
 
 .footer_element {
