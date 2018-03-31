@@ -24,7 +24,6 @@ a {
 	color: #000000;
 	font-weight: bold;
 	background-color: #ffffff;
-	width: 1200px;
 }
 
 .main_menu,
@@ -69,6 +68,7 @@ a {
 .reasons {
 	line-height: 26px;
 	padding-bottom: 55px;
+	margin: 0;
 }
 
 .sedona_about {
@@ -225,14 +225,20 @@ a {
 	padding-right: 449px;
 }
 
-.interest_about {
-	line-height: 24px;
-	text-align: center;
-	margin-top: 0;
-	padding-left: 381px;
-	padding-right: 381px;
-	margin-bottom: 51px;
+.reservation_text_wrapper {
+	width: 444px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 53px;
+}
 
+.reservation_text1,
+.reservation_text2 {
+	margin: 0;
+}
+
+.reservation_text1 {
+	margin-bottom: 10px;
 }
 
 .hotel_button {
@@ -437,7 +443,8 @@ a {
 }
 
 .budget_table {
-	margin-left: 210px;
+	margin-right: 72px;
+	margin-left: auto;
 	border: 2px solid #ffffff;
 	margin-bottom: 52px;
 }
@@ -516,6 +523,21 @@ a {
 
 .hotels {
 	background-color: #fefefe;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.hotel_info,
+.raiting_wrapper {
+	width: 600px;
+}
+
+.hotel_info {
+	box-sizing: border-box;
+	width: 600px;
+	padding-left: 72px;
+	padding-top: 35px;
+	padding-bottom: 31px;
 }
 
 .hotel_info a {
@@ -586,7 +608,7 @@ a {
 /* Сеточные элементы главной страницы */
 
 .menu_element {
-	width: 20%;
+	width: 240px;
 }
 
 
@@ -599,8 +621,8 @@ a {
 .main_navigation {
 	box-sizing: border-box;
 	min-width: 1200px;
-	padding-left: 6%;
-	padding-right: 6%;
+	padding-left: 72px;
+	padding-right: 72px;
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-top: 21px;
@@ -613,28 +635,24 @@ a {
 
 .sedona_about {
 	box-sizing: border-box;
-	width: 1200px;
 
 	display: flex;
-	justify-content: space-between;
 }
 
 
 .benefits_size {
 	box-sizing: border-box;
-	width: 1200px;
 	background-color: #ffffff;
 }
 
 .benefits2_size {
 	box-sizing: border-box;
-	width: 1200px;
 	height: 258px;
 }
 
 
 .about_element {
-	width: 33%;
+	width: 400px;
 }
 
 
@@ -649,7 +667,6 @@ a {
 
 .reservation {
 	box-sizing: content-box;
-	width: 1200px;
 }
 
 .popup_margin {
@@ -665,7 +682,6 @@ a {
 
 .socials {
 	box-sizing: border-box;
-	width: 1200px;
 	height: 121px;
 
 	display: flex;
@@ -679,25 +695,28 @@ a {
 .sedona_options_wrapper {
 	box-sizing: border-box;
 	width: 600px;
-    display: flex;
+	display: flex;
 }
 
 .budget_wrapper {
 	width: 600px;
 }
 
-.hotels {
-	box-sizing: border-box;
-	width: 1200px;
-}
-
 .hotels_wrapper {
 	width: 528px;
 	height: 87px;
-	padding-left: 6%;
+	padding-left: 72px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.u_d_button {
+	margin-left: auto;
+	margin-right: 72px;
+	margin-top: 39px;
+	margin-bottom: auto;
+	display: inline-block;
 }
 
 .sorting_options {
@@ -707,21 +726,14 @@ a {
 	justify-content: space-between;
 }
 
-
-.hotel_info {
-	width: 600px;
-}
-
 .display_img {
-	padding-left: 73px;
-	padding-top: 35px;
-	padding-bottom: 31px;
 	padding-right: 30px;
+	padding-top: 4px;
 	float: left;
 }
 
 .hotel_info_wrapper {
-	padding-top: 30px;
+	height: 90px;
 }
 
 .header_display {
@@ -749,7 +761,6 @@ a {
 }
 
 .hotels_display {
-	width: 1200px;
 	display: flex;
 	flex-flow: row wrap;
 }
@@ -762,10 +773,6 @@ a {
 .total_hotel_wrapper {
 	width: 1200px;
 	display: flex;
-}
-
-.raiting_wrapper {
-	width: 600px;
 }
 
 .raiting {
@@ -791,6 +798,7 @@ a {
 
 .container {
 	margin: 0 auto;
+	width: 1200px;
 }
 
 .main_background_img {
@@ -852,4 +860,8 @@ a {
 
 .right_element {
 	text-align: right;
+}
+
+.main_page_img {
+	margin: 0;
 }
