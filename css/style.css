@@ -493,8 +493,7 @@ a {
 	font-weight: bold;
 	font-size: 21px;
 	line-height: 26px;
-	min-width: 120px;
-	margin-right: 10px;
+	min-width: 160px;
 }
 
 .sorting {
@@ -753,14 +752,10 @@ a {
 
 .text_pos {
 	width: 114px;
-	display: flex;
-	justify-content: flex-start;
 }
 
 .price_pos {
 	width: 142px;
-	display: flex;
-	justify-content: flex-start;
 }
 
 .hotels_display {
