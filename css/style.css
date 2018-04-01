@@ -420,28 +420,20 @@ a {
 
 .infrastructure_header{
 	padding-left: 73px;
-	padding-right: 101px;
-	margin-bottom: 33px;
+	padding-right: 99px;
+	margin-bottom: 22px;
 }
 
 .infrastructure_checkbox {
-	padding: 0;
-	margin: 0;
-	background: rgba(0, 128, 0, 0.2);
-    box-shadow: 0 0 0 3px green;
 
 }
 
 .housetype_header {
-	margin-left: 13px;
-	margin-bottom: 33px;
+	margin-bottom: 22px;
+	margin-left: 17px;
 }
 
 .housetype_checkbox {
-	margin-left: 13px;
-	margin-top: 0;
-	margin-right: 15px;
-	margin-bottom: 23px;
 }
 
 .sorting_conditions {
@@ -723,7 +715,7 @@ a {
 .filter_range_title {
 	margin-bottom: 9px;
 
-	font-weight: 600;
+	font-weight: bold;
 	font-size: 16px;
 }
 
@@ -759,10 +751,14 @@ a {
 	cursor: pointer;
 }
 
-.price_controls .min_price,
-.price_controls .max_price {
+.price_controls .min_price {
 	width: 90px;
 	padding-left: 65px;
+}
+
+.price_controls .max_price {
+	width: 90px;
+	padding-left: 53px;
 }
 
 .price_controls input {
@@ -1055,3 +1051,78 @@ a {
 	width: 41px;
 }
 
+.sorting_list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.filter_option1 {
+    margin-bottom: 25px;
+    padding-left: 112px;
+}
+
+.filter_option1 label {
+    position: relative;
+
+    display: block;
+
+    cursor: pointer;
+}
+
+.infrastructure_checkbox + label::before {
+	content: url(../img/checkbox-off.svg);
+	position: absolute;
+
+	width: 23px;
+	height: 23px;
+
+	top: -2px;
+    left: -39px;
+}
+
+.infrastructure_checkbox:checked + label::after {
+	content: url(../img/checkbox-on.svg);
+
+	position: absolute;
+	top: -2px;
+	left: -39px;
+
+	width: 27px;
+	height: 23px;
+}
+
+.filter_option2 {
+	margin-bottom: 25px;
+	padding-left: 60px;
+}
+
+.filter_option2 label {
+    position: relative;
+
+    display: block;
+
+    cursor: pointer;
+}
+
+.housetype_checkbox + label::before {
+	content: url(../img/checkbox-off.svg);
+	position: absolute;
+
+	width: 23px;
+	height: 23px;
+
+	top: -2px;
+	left: -42px;
+}
+
+.housetype_checkbox:checked + label::after {
+	content: url(../img/checkbox-on.svg);
+
+	position: absolute;
+	top: -2px;
+	left: -42px;
+
+	width: 27px;
+	height: 23px;
+} 
