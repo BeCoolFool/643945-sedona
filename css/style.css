@@ -36,6 +36,8 @@ a {
 
 .sedona_logo {
 	position: absolute;
+	left: 45%;
+	right: 45%;
 }
 
 /* index.html   */
@@ -396,7 +398,6 @@ a {
 /* inner.html */
 
 .hotel_options {
-	width: 1200px;
 	background-image: url(../img/filter_background.png);
 	background-repeat: no-repeat;
 	display: flex;
@@ -415,7 +416,7 @@ a {
 	color: #ffffff;
 	font-size: 16px;
 	font-weight: bold;
-	padding-top: 31px;
+	padding-top: 29px;
 }
 
 .infrastructure_header{
@@ -424,16 +425,10 @@ a {
 	margin-bottom: 22px;
 }
 
-.infrastructure_checkbox {
-
-}
 
 .housetype_header {
 	margin-bottom: 22px;
 	margin-left: 17px;
-}
-
-.housetype_checkbox {
 }
 
 .sorting_conditions {
@@ -533,7 +528,6 @@ a {
 .hotels {
 	background-color: #fefefe;
 	box-sizing: border-box;
-	display: flex;
 }
 
 .raiting_wrapper {
@@ -634,7 +628,11 @@ a {
 
 
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+}
+
+.hidden_element {
+	width: 96px;
 }
 
 .sedona_about {
@@ -847,6 +845,12 @@ a {
 	align-items: center;
 }
 
+.hotels_wrapper,
+.u_d_button {
+	padding-top: 19px;
+	padding-bottom: 19px;
+}
+
 .hotels_wrapper {
 	margin-left: 72px;
 	display: flex;
@@ -906,8 +910,9 @@ a {
 
 .total_hotel_wrapper {
 	width: 1200px;
-	padding-top: 35px;
-	padding-bottom: 31px;
+	padding-top: 27px;
+	padding-bottom: 29px;
+	outline: #e5e5e5 solid 1px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -1024,10 +1029,18 @@ a {
 }
 
 .academy_symb {
-	width: 241px;
+	width: 198px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+}
+
+.academy_symb:hover path {
+	fill: #81b3d2;
+}
+
+.academy_symb:focus path {
+	fill: #bdbbbc;
 }
 
 .hotel_star,
@@ -1037,6 +1050,7 @@ a {
 	background-image: url(../img/star.svg);
 	background-repeat: repeat-x;
 	background-repeat: space;
+	margin: 0;
 }
 
 .hotel_star {
@@ -1055,6 +1069,7 @@ a {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	padding-bottom: 8px;
 }
 
 .filter_option1 {
