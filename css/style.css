@@ -945,7 +945,7 @@ a {
 .container {
 	margin: 0 auto;
 	width: 1200px;
-	box-shadow:0 -5px 15px 0 rgba(0,0,0,.2)
+	box-shadow:0 -5px 15px 0 rgba(0,0,0,.2);
 }
 
 .main_poster {
