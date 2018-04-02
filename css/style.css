@@ -29,15 +29,21 @@ a {
 }
 
 .header_elements {
-	box-sizing: border-box;
 	min-width: 1200px;
 	position: relative;
 }
 
 .sedona_logo {
 	position: absolute;
-	left: 45%;
-	right: 45%;
+	z-index: 1;
+	left: 50%;
+	width: 138px;
+	height: 70px;
+	margin-left: -69px;
+	font-size: 0;
+	line-height: 0;
+	color: transparent;
+	background-image: url(../img/logo.png);
 }
 
 /* index.html   */
@@ -840,6 +846,7 @@ a {
 /*  конец формы    */
 
 .searching_wrapper {
+	border-bottom: #e5e5e5 solid 1px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -912,7 +919,7 @@ a {
 	width: 1200px;
 	padding-top: 27px;
 	padding-bottom: 29px;
-	outline: #e5e5e5 solid 1px;
+	border-bottom: #e5e5e5 solid 1px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -940,15 +947,13 @@ a {
 	width: 1200px;
 }
 
-.main_background_img {
-	width: 1200px;
-	height: 773px;
+.main_poster {
+	height: 733px;
 	background-image: url(../img/index_background.jpg);
 	background-repeat: no-repeat;
-	display: flex;
-	justify-content: center;
-	align-items: center;	
+	background-size: cover;	
 }
+
 
 .img_header {
 	padding-top: 44px;
