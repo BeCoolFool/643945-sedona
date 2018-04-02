@@ -945,6 +945,7 @@ a {
 .container {
 	margin: 0 auto;
 	width: 1200px;
+	box-shadow:0 -5px 15px 0 rgba(0,0,0,.2)
 }
 
 .main_poster {
@@ -1146,3 +1147,10 @@ a {
 	width: 27px;
 	height: 23px;
 } 
+
+.welcome {
+	background-image: url(../img/Welcome.svg);
+	background-repeat: no-repeat;
+	width: 188px;
+	height: 45px;
+}
