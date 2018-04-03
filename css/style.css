@@ -869,6 +869,20 @@ a {
 	display: inline-block;
 }
 
+.u_d_button path {
+	fill: #cacaca;
+}
+
+.up_dir:hover path,
+.down_dir:hover path {
+	fill: #231f20;
+}
+
+.up_dir:focus path,
+.down_dir:focus path {
+	fill: #81b3d2;
+}
+
 .sorting_options {
 	padding-left: 0px;
 	width: 236px;
@@ -945,7 +959,6 @@ a {
 .container {
 	margin: 0 auto;
 	width: 1200px;
-	box-shadow:0 -5px 15px 0 rgba(0,0,0,.2);
 }
 
 .main_poster {
