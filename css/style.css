@@ -19,13 +19,13 @@ a {
 
 .visually_hidden {
 	position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
 .header_elements {
@@ -79,7 +79,6 @@ a {
 .sedona_definition {
 	text-align: center;
 	background-color: #ffffff;
-	width: 1200px;
 }
 
 .definition {
@@ -87,11 +86,11 @@ a {
 	line-height: 26px;
 	font-weight: bold;
 	color: #000000;
-	padding-top: 65px;
+	padding-top: 55px;
 	padding-left: 379px;
 	padding-right: 379px;
 	margin-top: 0;
-	margin-bottom: 41px;
+	margin-bottom: 37px;
 }
 
 .reasons {
@@ -143,9 +142,9 @@ a {
 .house_icon_header,
 .food_icon_header,
 .souvenir_icon_header{
-    margin: 0;
-    margin-top: 32px;
-    margin-bottom: 25px;
+	margin: 0;
+	margin-top: 32px;
+	margin-bottom: 25px;
 }
 
 .house_icon_about {
@@ -370,9 +369,9 @@ a {
 
 .socials {
 	position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	background: rgba(254,254,254,.9);
 }
 
@@ -1032,13 +1031,13 @@ a {
 
 .map {
 	height: 593px;
-    background: url(../img/index_map.png) no-repeat 50% 100%;
+	background: url(../img/index_map.png) no-repeat 50% 100%;
 }
 
 .map iframe {
 	height: 593px;
-    width: 100%;
-    border: none
+	width: 100%;
+	border: none
 }
 
 .footer_socials {
@@ -1127,16 +1126,16 @@ a {
 }
 
 .filter_option1 {
-    margin-bottom: 25px;
-    padding-left: 112px;
+	margin-bottom: 25px;
+	padding-left: 112px;
 }
 
 .filter_option1 label {
-    position: relative;
+	position: relative;
 
-    display: block;
+	display: block;
 
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .infrastructure_checkbox + label::before {
@@ -1147,7 +1146,7 @@ a {
 	height: 23px;
 
 	top: -2px;
-    left: -39px;
+	left: -39px;
 }
 
 .infrastructure_checkbox:checked + label::after {
@@ -1167,11 +1166,11 @@ a {
 }
 
 .filter_option2 label {
-    position: relative;
+	position: relative;
 
-    display: block;
+	display: block;
 
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .housetype_checkbox + label::before {
