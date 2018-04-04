@@ -88,24 +88,26 @@
 				</div>
 				<button class="hotel_button" type="button">Поиск гостиницы в Седоне</button>
 				<div class="map_popup">
-					<form action="#" method="post" class="reservation_buttons date_popup visualy_hidden popup_margin">
+					<form action="#" method="post" class="reservation_buttons date_popup">
 						<fieldset class="form_row">
-							<label for="arr">Дата заезда: </label>
-							<input type="date" name="arrival" id="arr" class="res_button">
+							<label for="arr" class="res_button_text">Дата заезда:</label>
+							<input type="date" name="arrival" id="arr" class="res_button" value="2017-04-24">
+							<span class="calendar"></span>
 						</fieldset>
 						<fieldset class="form_row">
-							<label for="dep">Дата выезда: </label>
-							<input type="date" name="departure" id="dep" class="res_button">
+							<label for="dep" class="res_button_text">Дата выезда:</label>
+							<input type="date" name="departure" id="dep" class="res_button" value="2017-06-04">
+							<span class="calendar"></span>
 						</fieldset>
-						<div class="counters_wrapper">
-							<fieldset class="form_row">
-								<label for="p_counter">Взрослые: </label>
+						<div class="counter_wrapper">
+							<fieldset class="form_row people_counter">
+								<label for="p_counter">Взрослые:</label>
 								<button class="button_minus" type="button">&minus;</button>
 								<input type="text" name="counter" value="2" id="p_counter" class="number_button">
 								<button class="button_plus" type="button">&#43;</button>
 							</fieldset>
-							<fieldset class="form_row">
-								<label for="c_counter">Дети: </label>
+							<fieldset class="form_row people_counter">
+								<label for="c_counter">Дети:</label>
 								<button class="button_minus" type="button">&minus;</button>
 								<input type="text" name="counter" value="0" id="c_counter" class="number_button">
 								<button class="button_plus" type="button">&#43;</button>
