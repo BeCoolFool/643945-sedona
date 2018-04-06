@@ -297,7 +297,7 @@ a {
 	box-sizing: border-box;
 	font-weight: bold;
 	line-height: 26px;
-	background-color: #eeeeee;
+	background-color: #f2f2f2;
 	width: 343px;
 	height: 40px;
 	border-width: 0px;
@@ -1265,16 +1265,17 @@ a {
     color: #a9a9a9
 }
 
-.calendar:before {
-	content: url(../img/calendar.svg);
-	width: 38px;
-    margin: 0;
-    font-size: 21px;
-    line-height: 38px;
-    text-align: center;
-    display: inline-block;
+.calendar {
+	right: 10px;
+	top: 7px;
+	fill: #cacaca;
 }
 
-.calendar:before path {
-	fill: red;
+.res_button:hover + .calendar path {
+	fill: #000000;
 }
+
+.res_button:focus + .calendar path {
+	fill: #81b3d2;
+}
+
