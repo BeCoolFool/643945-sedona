@@ -376,6 +376,14 @@ a {
 	background: rgba(254,254,254,.9);
 }
 
+.socials_inner {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 36px;
+	padding-bottom: 36px;
+	background-color: #fefefe;
+}
+
 .footer_text a,
 .footer_hashtag a,
 .social_network a {
@@ -670,10 +678,6 @@ a {
 
 .date_popup {
 	margin: 55px;
-	/*
-	display: flex;
-	flex-flow: column wrap;
-	align-items: center; */
 }
 
 .socials {
@@ -685,7 +689,8 @@ a {
 	justify-content: space-between;
 }
 
-.socials ul {
+.socials ul ,
+.socials_inner ul {
 	display: flex;
 	width: 150px;
 	justify-content: space-between;
@@ -1218,8 +1223,30 @@ a {
 	margin-bottom: 30px;
 	padding: 0;
 	border: none;
-	display: inline-block;
 }
+
+.adult_counter {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.child_counter {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.child_text {
+	width: 67px;
+}
+
+.adult_text {
+	width: 115px;
+	text-align: left;
+}
+
+
 
 .counter_wrapper {
 	display: flex;
@@ -1246,4 +1273,8 @@ a {
     line-height: 38px;
     text-align: center;
     display: inline-block;
+}
+
+.calendar:before path {
+	fill: red;
 }
